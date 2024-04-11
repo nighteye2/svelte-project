@@ -1,0 +1,36 @@
+import { writable } from "svelte/store";
+
+let archery = writable([{
+        name: "archery",
+        definition: "Archery is the sport, practice, or skill of using a bow to shoot arrows. The word comes from the Latin arcus, meaning bow.Historically, archery has been used for hunting and combat. In modern times, it is mainly a competitive sport and recreational activity. A person who practices archery is typically called an archer, bowman, or toxophilite.",
+        rule1: "Archers must adhere to all official rules in terms of the equipment they use in the performance of their sport, with the main emphasis being on them using no equipment or accessories that would give an unfair advantage over an opponent.",
+        rule2: "The maximum time permitted to shoot an end of three arrows is two minutes, and four minutes for an end of six arrows.",
+        rule3: "Athletes may not raise the bow arm until the signal to start is given and penalties can be given – in the form of points forfeits – if the bow is drawn after the official practice has been closed.",
+        rule4: "An arrow cannot be re-shot under any circumstances. The arrow may be considered not to have been shot if it falls from the bow or misfires, or if the target blows or falls over. Extra time would be given in such circumstances.",
+        rule5: "An arrow that rebounds or hangs from the target will still score based on the mark it makes on the target face. Arrows that stick – Robin Hood-style – in the nock of another shall score the same as the arrow in which they are embedded.",
+        rule6: "Athletes can be disqualified, have points deducted or be banned from competition for various breaches of rules, based on the severity of the offence.",
+        rule7: "If equipment is damaged, appeals can be made to the judge for such equipment to be replaced or fixed, and any time allowances will be at the judge’s discretion.",
+        pevent1: "PILSEN 2023,PILSEN 17 - 23 JULY 2023 WORLD ARCHERY PARA CHAMPIONSHIPS",
+        pevent2: "LIMERICK 2023,LIMERICK 3 - 9 JULY 2023 WORLD ARCHERY YOUTH CHAMPIONSHIPS",
+        pevent3: "JCCA SAN SALVADOR 2023,CAMPO DE TIRO CON ARCO 'JORGE JIMÉNEZ' 1 - 7 JULY 2023 CENTRAL AMERICAN AND CARIBBEAN GAMES",
+        pevent4: "KRAKOW-MALOPOLSKA 2023,KRAKOW 23 - 29 JUNE 2023 EUROPEAN GAMES",
+        pevent5: "MEDELLIN 2023,MEDELLIN 13 - 18 JUNE 2023 WORLD CUP STAGE-3",
+        pevent6: "SINGAPORE 2023,BUKIT GOMBAK STADIUM 5 - 10 JUNE 2023 ASIAN GRAND PRIX CIRCUIT",
+        pevent7: "UMAG 2023,UMAG 29 MAY - 4 JUNE 2023 EUROPEAN GRAND PRIX CIRCUIT",
+        pevent8: "2023 CONQUEST CUP,ISTANBUL 25 - 26 MAY 2023 OTHER INTERNATIONAL EVENT",
+        pevent9: "SHANGHAI 2023,SHANGHAI 16 - 21 MAY 2023 WORLD CUP STAGE-2",
+        pevent10: "NOVE MESTO 2023,NOVÉ MĚSTO NAD METUJÍ 13 - 21 MAY 2023 OTHER INTERNATIONAL EVENT",
+        pevent11: "KAMNIK 2023,KAMNIK 12 - 14 MAY 2023 OTHER INTERNATIONAL EVENT",
+        pevent12: "EYC CATEZ 2023 ČATEŽ 1 - 6 MAY 2023 EUROPEAN YOUTH CUP CIRCUIT",
+        pevent13: "TASHKENT 2023 ,UZBEKISTAN TASHKENT 29 APRIL - 5 MAY 2023 ASIAN GRAND PRIX CIRCUIT",
+        pevent14: "ANTALYA 2023 ,ANTALYA 18 - 23 APRIL 2023 WORLD CUP STAGE-1",
+        pevent15: "COPA MERENGUE,SANTO DOMINGO 11 - 15 APRIL 2023 OTHER INTERNATIONAL EVENT",
+        pevent16: "LILLESHALL 2023 LILLESHALL NSCC, SHROPSHIRE 3 - 8 APRIL 2023 EUROPEAN GRAND PRIX CIRCUIT",
+        pevent17: "2023 KAHRAMAN BAGATIR,ANTALYA 27 - 31 MARCH 2023 OTHER INTERNATIONAL EVENT",
+        pevent18: "TAOYUAN 2023,TAOYUAN 14 - 19 MARCH 2023 ASIAN GRAND PRIX CIRCUIT",
+        pevent19: "INDOOR WORLD SERIES FINALS,LAS VEGAS 4 FEBRUARY 2023 INDOOR WORLD SERIES",
+        pevent20: "VEGAS SHOOT,LAS VEGAS 3 - 5 FEBRUARY 2023 INDOOR WORLD SERIES",
+        pevent21: "INDOOR WORLD SERIES YOUTH FINALS,NÎMES 21 - 22 JANUARY 2023 INDOOR WORLD SERIES",
+        pevent22: "NIMES ARCHERY TOURNAMENT,NÎMES 20 - 22 JANUARY 2023 INDOOR WORLD SERIES"
+}]);
+export default archery;
