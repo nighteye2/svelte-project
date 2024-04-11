@@ -1,0 +1,16 @@
+{
+	"/": [],
+	"/Physicalsportshome": [],
+	"/about": [],
+	"/athletics": [],
+	"/athletics/archery": [],
+	"/athletics/kabaddi": [],
+	"/logindesign": [],
+	"/login": [
+		"src/routes/login/+page.server.ts"
+	],
+	"/registerdesign": [],
+	"/register": [
+		"src/routes/register/+page.server.ts"
+	]
+}

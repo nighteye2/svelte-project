@@ -1,0 +1,309 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js"
+    ]
+  },
+  "_database.js": {
+    "file": "chunks/database.js",
+    "name": "database"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_frolic nation white logo.js": {
+    "file": "chunks/frolic nation white logo.js",
+    "name": "frolic nation white logo",
+    "assets": [
+      "_app/immutable/assets/frolic nation white logo.CpNjBk-s.png"
+    ]
+  },
+  "_header.js": {
+    "file": "chunks/header.js",
+    "name": "header",
+    "imports": [
+      "_ssr.js",
+      "_frolic nation white logo.js"
+    ],
+    "css": [
+      "_app/immutable/assets/header.mTxjBTbA.css"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_sportsheader.js": {
+    "file": "chunks/sportsheader.js",
+    "name": "sportsheader",
+    "imports": [
+      "_ssr.js",
+      "_frolic nation white logo.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/sportsheader.L1bpXFk4.css"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "entries/fallbacks/layout.svelte.js",
+    "name": "entries/fallbacks/layout.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_index.js",
+      "_exports.js",
+      "_index2.js"
+    ]
+  },
+  "src/lib/images/archery card1.jpg": {
+    "file": "_app/immutable/assets/archery card1.DS1ukmmb.jpg",
+    "src": "src/lib/images/archery card1.jpg"
+  },
+  "src/lib/images/archery.jpg": {
+    "file": "_app/immutable/assets/archery.B_Q4AX8e.jpg",
+    "src": "src/lib/images/archery.jpg"
+  },
+  "src/lib/images/cricket.jpg": {
+    "file": "_app/immutable/assets/cricket.CXqCbeYp.jpg",
+    "src": "src/lib/images/cricket.jpg"
+  },
+  "src/lib/images/fencing image1.jpg": {
+    "file": "_app/immutable/assets/fencing image1.RxgZa4l4.jpg",
+    "src": "src/lib/images/fencing image1.jpg"
+  },
+  "src/lib/images/frolic nation white logo.png": {
+    "file": "_app/immutable/assets/frolic nation white logo.CpNjBk-s.png",
+    "src": "src/lib/images/frolic nation white logo.png"
+  },
+  "src/lib/images/games illustration.png": {
+    "file": "_app/immutable/assets/games illustration.DAamLKfD.png",
+    "src": "src/lib/images/games illustration.png"
+  },
+  "src/lib/images/kabaddi card1.jpg": {
+    "file": "_app/immutable/assets/kabaddi card1.Cr8CWOPX.jpg",
+    "src": "src/lib/images/kabaddi card1.jpg"
+  },
+  "src/lib/images/kabaddi.png": {
+    "file": "_app/immutable/assets/kabaddi.CRUqjEVX.png",
+    "src": "src/lib/images/kabaddi.png"
+  },
+  "src/lib/images/voilet badminton.jpg": {
+    "file": "_app/immutable/assets/voilet badminton.BHeinqRC.jpg",
+    "src": "src/lib/images/voilet badminton.jpg"
+  },
+  "src/lib/images/who we are (1).png": {
+    "file": "_app/immutable/assets/who we are (1).DxQuzV9W.png",
+    "src": "src/lib/images/who we are (1).png"
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_header.js",
+      "src/routes/Physicalsportshome/+page.svelte"
+    ]
+  },
+  "src/routes/Physicalsportshome/+page.svelte": {
+    "file": "entries/pages/Physicalsportshome/_page.svelte.js",
+    "name": "entries/pages/Physicalsportshome/_page.svelte",
+    "src": "src/routes/Physicalsportshome/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.BIR-yRcJ.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/games illustration.DAamLKfD.png"
+    ]
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "name": "entries/pages/about/_page.svelte",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_header.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.bTzIfIfG.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/who we are (1).DxQuzV9W.png"
+    ]
+  },
+  "src/routes/athletics/+page.svelte": {
+    "file": "entries/pages/athletics/_page.svelte.js",
+    "name": "entries/pages/athletics/_page.svelte",
+    "src": "src/routes/athletics/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_client.js",
+      "_header.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.bm5_JlYC.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/archery card1.DS1ukmmb.jpg",
+      "_app/immutable/assets/kabaddi card1.Cr8CWOPX.jpg",
+      "_app/immutable/assets/fencing image1.RxgZa4l4.jpg",
+      "_app/immutable/assets/cricket.CXqCbeYp.jpg",
+      "_app/immutable/assets/voilet badminton.BHeinqRC.jpg"
+    ]
+  },
+  "src/routes/athletics/archery/+page.svelte": {
+    "file": "entries/pages/athletics/archery/_page.svelte.js",
+    "name": "entries/pages/athletics/archery/_page.svelte",
+    "src": "src/routes/athletics/archery/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_sportsheader.js",
+      "_index2.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.MzY3xISm.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/archery.B_Q4AX8e.jpg"
+    ]
+  },
+  "src/routes/athletics/kabaddi/+page.svelte": {
+    "file": "entries/pages/athletics/kabaddi/_page.svelte.js",
+    "name": "entries/pages/athletics/kabaddi/_page.svelte",
+    "src": "src/routes/athletics/kabaddi/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_sportsheader.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.De-4fy_D.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/kabaddi.CRUqjEVX.png"
+    ]
+  },
+  "src/routes/login/+page.server.ts": {
+    "file": "entries/pages/login/_page.server.ts.js",
+    "name": "entries/pages/login/_page.server.ts",
+    "src": "src/routes/login/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_database.js"
+    ]
+  },
+  "src/routes/login/+page.svelte": {
+    "file": "entries/pages/login/_page.svelte.js",
+    "name": "entries/pages/login/_page.svelte",
+    "src": "src/routes/login/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_header.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.D8FCKgA3.css"
+    ]
+  },
+  "src/routes/logindesign/+page.svelte": {
+    "file": "entries/pages/logindesign/_page.svelte.js",
+    "name": "entries/pages/logindesign/_page.svelte",
+    "src": "src/routes/logindesign/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/register/+page.server.ts": {
+    "file": "entries/pages/register/_page.server.ts.js",
+    "name": "entries/pages/register/_page.server.ts",
+    "src": "src/routes/register/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_database.js"
+    ]
+  },
+  "src/routes/register/+page.svelte": {
+    "file": "entries/pages/register/_page.svelte.js",
+    "name": "entries/pages/register/_page.svelte",
+    "src": "src/routes/register/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_header.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.QzcFiprs.css"
+    ]
+  },
+  "src/routes/registerdesign/+page.svelte": {
+    "file": "entries/pages/registerdesign/_page.svelte.js",
+    "name": "entries/pages/registerdesign/_page.svelte",
+    "src": "src/routes/registerdesign/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  }
+}
